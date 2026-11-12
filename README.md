@@ -31,6 +31,7 @@ No real names: this repository is public. -->
 |---|---|
 |Kevin|Team member|
 |Taha|Team member|
+|Ecem|Team member|
 ## How we work
 
 <!-- How your team uses Git. For example:
