@@ -30,6 +30,7 @@ No real names: this repository is public. -->
 | GitHub | Role |
 |---|---|
 |Kevin|Team member|
+|Taha|Team member|
 ## How we work
 
 <!-- How your team uses Git. For example:
