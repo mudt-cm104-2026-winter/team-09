@@ -9,3 +9,4 @@ Example:
 ## Unreleased
 
 - Start from the repository template
+- Page title and texts say Movie Watchlist (#13)
