@@ -8,4 +8,5 @@ Example:
 
 ## Unreleased
 
+- Fields renamed to movie title and genre
 - Start from the repository template
