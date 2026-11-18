@@ -10,3 +10,4 @@ Example:
 
 - Fields renamed to movie title and genre
 - Start from the repository template
+- Page title and texts say Movie Watchlist (#13)

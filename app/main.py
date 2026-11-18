@@ -1,4 +1,4 @@
-"""Things to bring: the starting point of your team project.
+"""Movie Watchlist: the starting point of your team project.
 
 This is an example. Replace the topic with your own: change the fields,
 the texts and the page. Grow it one pull request at a time.
@@ -21,7 +21,7 @@ from . import storage
 
 HERE = Path(__file__).parent
 
-app = FastAPI(title="Things to bring")
+app = FastAPI(title="Movie Watchlist")
 app.mount("/static", StaticFiles(directory=HERE / "static"), name="static")
 templates = Jinja2Templates(directory=HERE / "templates")
 
