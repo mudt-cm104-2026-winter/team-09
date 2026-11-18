@@ -12,19 +12,19 @@
     <p class="intro">Movies our team wants to watch.</p>
 
     <form class="add" action="/add" method="post">
-      <input name="thing" placeholder="What?" required autocomplete="off" autofocus>
-      <input name="person" placeholder="Who?" required autocomplete="off">
+      <input name="title" placeholder="Movie title" required autocomplete="off" autofocus>
+      <input name="genre" placeholder="Genre" required autocomplete="off">
       <button type="submit">Add</button>
     </form>
 
     {% if entries %}
     <table>
       <thead>
-        <tr><th>What</th><th>Who</th></tr>
+        <th>Title</th><th>Genre</th>
       </thead>
       <tbody>
         {% for entry in entries %}
-        <tr><td>{{ entry.thing }}</td><td>{{ entry.person }}</td></tr>
+        <tr><td>{{ entry.title }}</td><td>{{ entry.genre }}</td></tr>
         {% endfor %}
       </tbody>
     </table>
