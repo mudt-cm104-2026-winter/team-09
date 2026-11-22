@@ -4,8 +4,8 @@
 
 ## What this is
 
-<!-- One or two sentences: what does your app do, and who is it for?
-Right now it is the example "Things to bring". Replace it with your topic. -->
+Movie Watchlist is a small web app for our team: you add a movie you want
+to watch with its title and genre, and the app shows all movies in a list.
 
 ## How to run it
 
