@@ -4,8 +4,8 @@
 
 ## What this is
 
-<!-- One or two sentences: what does your app do, and who is it for?
-Right now it is the example "Things to bring". Replace it with your topic. -->
+Movie Watchlist is a small web app for our team: you add a movie you want
+to watch with its title and genre, and the app shows all movies in a list.
 
 ## How to run it
 
@@ -41,7 +41,6 @@ No real names: this repository is public. -->
 - `main` is protected by a ruleset: no direct pushes, every pull request needs one approval from another team member.
 - The reviewer comments on at least one line and chooses Approve or Request changes.
 - We merge with "Create a merge commit". Every pull request adds one line to `CHANGELOG.md`.
--->
 
 ## Sources
 
