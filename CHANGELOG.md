@@ -8,6 +8,6 @@ Example:
 
 ## Unreleased
 
-- Fields renamed to movie title and genre
+- Fields renamed to movie title and genre (#11)
 - Start from the repository template
 - Page title and texts say Movie Watchlist (#13)
