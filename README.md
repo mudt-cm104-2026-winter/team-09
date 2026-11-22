@@ -1,4 +1,4 @@
-# Team project
+# Team 9 Movie Watchlist
 
 <!-- Replace the title with your project name. -->
 
@@ -34,12 +34,13 @@ No real names: this repository is public. -->
 |Ecem|Team member|
 ## How we work
 
-<!-- How your team uses Git. For example:
-- one branch per issue, named after it: `12-add-glossary`
-- every pull request needs one approval from another team member
-- the author merges after the approval
-- every pull request adds a line to CHANGELOG.md
--->
+- Every piece of work starts as an issue on our board "Team 9 Board", under one of our three epics: Entries, Page, Docs.
+- For each issue we create a branch from `main`, named after the issue, for example `11-rename-fields`.
+- We commit in small steps with messages that say what changed.
+- Every change goes into `main` through a pull request. The description follows our template and contains `closes #n`.
+- `main` is protected by a ruleset: no direct pushes, every pull request needs one approval from another team member.
+- The reviewer comments on at least one line and chooses Approve or Request changes.
+- We merge with "Create a merge commit". Every pull request adds one line to `CHANGELOG.md`.
 
 ## Sources
 
