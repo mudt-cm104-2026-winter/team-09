@@ -28,9 +28,11 @@ templates = Jinja2Templates(directory=HERE / "templates")
 
 @app.get("/")
 def show_list(request: Request):
-    """The start page: the form and all entries."""
+    """The start page: the form and all entries, sorted A to Z by title."""
+    # casefold() ignores upper and lower case, so "alien" and "Alien" sort together.
+    entries = sorted(storage.all_entries(), key=lambda entry: entry["title"].casefold())
     return templates.TemplateResponse(
-        request, "index.html", {"entries": storage.all_entries()}
+        request, "index.html", {"entries": entries}
     )
 
 
