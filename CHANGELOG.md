@@ -10,3 +10,4 @@ Example:
 
 - Start from the repository template
 - Page title and texts say Movie Watchlist (#13)
+-  README section What this is added (#15)
