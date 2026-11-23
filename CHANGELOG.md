@@ -13,3 +13,4 @@ Example:
 - Page title and texts say Movie Watchlist (#13)
 -  README section What this is added (#15)
 - README section How we work added (#14)
+- Movies can be removed from the list (#22)
