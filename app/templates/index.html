@@ -20,11 +20,19 @@
     {% if entries %}
     <table>
       <thead>
-        <tr><th>Title</th><th>Genre</th></tr>
+                <tr><th>Title</th><th>Genre</th><th></th></tr>
       </thead>
       <tbody>
         {% for entry in entries %}
-        <tr><td>{{ entry.title }}</td><td>{{ entry.genre }}</td></tr>
+                <tr>
+          <td>{{ entry.title }}</td>
+          <td>{{ entry.genre }}</td>
+          <td>
+            <form method="post" action="/remove/{{ entry.id }}">
+              <button type="submit" class="remove">Remove</button>
+            </form>
+          </td>
+        </tr>
         {% endfor %}
       </tbody>
     </table>
