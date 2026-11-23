@@ -49,3 +49,6 @@ table { width: 100%; border-collapse: collapse; }
 th, td { padding: .5rem; border-bottom: 1px solid var(--line); text-align: left; }
 
 th { color: var(--muted); font-weight: 600; }
+
+td form { margin: 0; }
+button.remove { padding: .3rem .6rem; background: none; color: var(--muted); border: 1px solid var(--line); }

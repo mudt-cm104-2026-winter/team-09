@@ -40,3 +40,10 @@ def add(title: str = Form(...), genre: str = Form(...)):
     storage.add_entry(title=title.strip(), genre=genre.strip())
     # Back to the start page. 303 tells the browser: load it with GET.
     return RedirectResponse("/", status_code=303)
+
+    
+@app.post("/remove/{entry_id}")
+def remove(entry_id: int):
+    """The Remove button in each row sends the movie's id here."""
+    storage.remove_entry(entry_id)
+    return RedirectResponse("/", status_code=303)

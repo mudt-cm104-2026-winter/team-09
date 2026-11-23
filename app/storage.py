@@ -24,3 +24,10 @@ def add_entry(title, genre):
     _entries.append(entry)
     _next_id += 1
     return entry
+
+    
+def remove_entry(entry_id):
+    """Delete the entry with this id. Does nothing if there is none."""
+    _entries[:] = [entry for entry in _entries if entry["id"] != entry_id]
+
+
