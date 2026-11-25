@@ -29,9 +29,9 @@ No real names: this repository is public. -->
 
 | GitHub | Role |
 |---|---|
-|Kevin|Team member|
-|Taha|Team member|
-|Ecem|Team member|
+| KevinT67 | Reviews (expert A) |
+| Tahasrc | Protecting main, PR template (expert C) |
+| EcemNaz21 | Issues and board (expert B) |
 ## How we work
 
 - Every piece of work starts as an issue on our board "Team 9 Board", under one of our three epics: Entries, Page, Docs.
