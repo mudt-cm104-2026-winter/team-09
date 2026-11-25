@@ -17,3 +17,4 @@ Example:
 - Movies are sorted by title from A to Z (#23)
 - Page has a dark cinema look (#26)
 - README Sources and Use of AI added (#16)
+- README Team table shows GitHub usernames and roles (#29)
